@@ -43,9 +43,9 @@ class DiscordMinecraftBot:
         if currID not in self.processed_ids:
             self.processed_ids.add(currID) 
 
-            if "has defeated <change_me>" in content_string:
+            if "has defeated <YOUR_DISCORD_ID>" in content_string:
                 return "lost"
-            elif "<change_me> has defeated" in content_string:
+            elif "<YOUR_DISCORD_ID> has defeated" in content_string:
                 return "won"
 
         return None 
@@ -67,7 +67,7 @@ class DiscordMinecraftBot:
 
         relevant_messages = []
         for message in json_data: 
-            if "<change_me>" in message['content']:
+            if "<YOUR_DISCORD_ID>" in message['content']:
                 relevant_messages.append(message)
 
         return relevant_messages
