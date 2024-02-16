@@ -1,4 +1,5 @@
 # minecraft-discord-script
+I made this script for a specific server I play on and their coinflip bot. This might offer as some guidance to creating something similar for your own use case.
 
 ## Disclaimer
 This script is for informational/educational purposes only. Gambling may have legal restrictions depending on your location. I am not responsible for any misuse or losses incurred. With that being said, this is for a minecraft server that deals with virtual money.
